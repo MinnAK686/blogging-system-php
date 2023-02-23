@@ -1,0 +1,23 @@
+/* li.nav-item > a.nav-link {
+    color: rgba(0, 0, 0, 0.55) !important;
+}
+li.nav-item > a.nav-link:hover {
+    color: rgba(0, 0, 0, 0.77) !important;
+} */
+
+.navbar
+    .navbar-menu-wrapper
+    .navbar-nav
+    .nav-item.dropdown
+    .dropdown-menu.navbar-dropdown {
+    left: -12rem;
+}
+@media screen and (max-width: 991px) {
+    .navbar
+        .navbar-menu-wrapper
+        .navbar-nav
+        .nav-item.dropdown
+        .dropdown-menu.navbar-dropdown {
+        left: auto;
+    }
+}
